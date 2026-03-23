@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAG in Enterprise Data Systems</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-grid"></div>
+
+  <header class="hero">
+    <nav class="topbar">
+      <div class="logo">RAG<span>Enterprise</span></div>
+      <a href="#sections" class="hero-btn small-btn">Explore</a>
+    </nav>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">Enterprise AI • Knowledge Systems • Innovation</p>
+        <h1>RAG in Enterprise Data Systems</h1>
+        <p class="hero-description">
+          A modern interactive showcase of how Retrieval-Augmented Generation
+          transforms scattered company data into intelligent, searchable,
+          and context-aware knowledge.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#sections" class="hero-btn">Open Sections</a>
+          <button class="hero-btn ghost-btn" id="openAllBtn">Expand All</button>
+        </div>
+      </div>
+
+      <div class="hero-panel">
+        <div class="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
+            alt="Artificial intelligence and enterprise data systems"
+          />
+        </div>
+
+        <div class="mini-card">
+          <span class="mini-label">Best Use Case</span>
+          <h3>Enterprise Knowledge Assistant</h3>
+          <p>Ask questions. Retrieve internal knowledge. Generate accurate answers instantly.</p>
+        </div>
+
+        <div class="stats">
+          <div class="stat-box">
+            <h4>Fast Access</h4>
+            <p>Find answers from company documents in seconds.</p>
+          </div>
+          <div class="stat-box">
+            <h4>Better Accuracy</h4>
+            <p>Responses are grounded in enterprise data.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content" id="sections">
+    <section class="section-heading">
+      <p class="section-tag">Interactive Overview</p>
+      <h2>Click any card to reveal the content</h2>
+      <p class="section-subtext">
+        This interactive layout presents RAG concepts in a clean, modern, and visually engaging format.
+      </p>
+    </section>
+
+    <section class="accordion-grid">
+      <article class="info-card active">
+        <button class="card-toggle">
+          <div class="card-left">
+            <span class="card-number">01</span>
+            <div>
+              <h3>What is RAG?</h3>
+              <p class="card-short">Understand the core idea behind Retrieval-Augmented Generation.</p>
+            </div>
+          </div>
+          <span class="toggle-icon">+</span>
+        </button>
+        <div class="card-content">
+          <div class="content-inner">
+            <p>
+              Retrieval-Augmented Generation, or RAG, is an AI approach that combines
+              <strong>information retrieval</strong> and <strong>response generation</strong>.
+            </p>
+            <p>
+              Instead of answering only from pre-trained model knowledge, the system first
+              searches internal enterprise data such as policies, manuals, reports, and knowledge bases.
+              It then generates an answer using the retrieved information.
+            </p>
+            <p>
+              This makes the response more accurate, more relevant, and more aligned with company-specific data.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="info-card">
+        <button class="card-toggle">
+          <div class="card-left">
+            <span class="card-number">02</span>
+            <div>
+              <h3>Why RAG Matters</h3>
+              <p class="card-short">Why enterprises need smarter ways to access information.</p>
+            </div>
+          </div>
+          <span class="toggle-icon">+</span>
+        </button>
+        <div class="card-content">
+          <div class="content-inner feature-list">
+            <div class="feature-item">
+              <h4>Faster Access</h4>
+              <p>Employees no longer need to search across multiple files and systems manually.</p>
+            </div>
+            <div class="feature-item">
+              <h4>Better Accuracy</h4>
+              <p>Answers are generated from real internal data instead of generic assumptions.</p>
+            </div>
+            <div class="feature-item">
+              <h4>Higher Productivity</h4>
+              <p>Teams spend less time searching and more time solving problems.</p>
+            </div>
+            <div class="feature-item">
+              <h4>Smarter Decisions</h4>
+              <p>Business knowledge becomes easier to access, understand, and use.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="info-card">
+        <button class="card-toggle">
+          <div class="card-left">
+            <span class="card-number">03</span>
+            <div>
+              <h3>How RAG Works</h3>
+              <p class="card-short">A clean step-by-step flow of the RAG pipeline.</p>
+            </div>
+          </div>
+          <span class="toggle-icon">+</span>
+        </button>
+        <div class="card-content">
+          <div class="content-inner">
+            <div class="section-image">
+              <img
+                src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+                alt="RAG workflow and AI process"
+              />
+            </div>
+
+            <div class="timeline">
+              <div class="timeline-step">
+                <span>1</span>
+                <div>
+                  <h4>Data Collection</h4>
+                  <p>Enterprise data is gathered from reports, FAQs, documents, emails, and databases.</p>
+                </div>
+              </div>
+              <div class="timeline-step">
+                <span>2</span>
+                <div>
+                  <h4>Embedding Creation</h4>
+                  <p>The data is converted into embeddings so the system understands meaning, not just keywords.</p>
+                </div>
+              </div>
+              <div class="timeline-step">
+                <span>3</span>
+                <div>
+                  <h4>Vector Storage</h4>
+                  <p>Those embeddings are stored in a vector database for efficient semantic search.</p>
+                </div>
+              </div>
+              <div class="timeline-step">
+                <span>4</span>
+                <div>
+                  <h4>Response Generation</h4>
+                  <p>The system retrieves relevant context and uses an AI model to generate the final answer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="info-card highlight-card">
+        <button class="card-toggle">
+          <div class="card-left">
+            <span class="card-number">04</span>
+            <div>
+              <h3>Best Use Case</h3>
+              <p class="card-short">Enterprise Knowledge Assistant — the most impactful implementation.</p>
+            </div>
+          </div>
+          <span class="toggle-icon">+</span>
+        </button>
+        <div class="card-content">
+          <div class="content-inner">
+            <div class="usecase-image">
+              <img
+                src="https://images.unsplash.com/photo-1674027444485-cec3da58eef4?auto=format&fit=crop&w=1200&q=80"
+                alt="Enterprise AI assistant dashboard"
+              />
+            </div>
+
+            <div class="usecase-banner">
+              <p class="banner-tag">Best Enterprise Use Case</p>
+              <h4>Enterprise Knowledge Assistant</h4>
+            </div>
+
+            <p>
+              One of the strongest use cases of RAG in enterprise systems is an
+              <strong>Enterprise Knowledge Assistant</strong>.
+            </p>
+
+            <p>
+              Companies store a huge amount of internal knowledge such as HR policies,
+              onboarding material, process documentation, finance rules, training manuals,
+              and technical guidelines. Employees often waste time trying to locate the right document.
+            </p>
+
+            <p>
+              A RAG-powered assistant allows employees to ask questions in natural language and get
+              clear, context-aware answers directly from internal company sources.
+            </p>
+
+            <div class="example-box">
+              <h4>Example</h4>
+              <p>
+                An employee asks: <strong>“What is our leave policy?”</strong><br />
+                The system retrieves the official HR document and generates a direct, easy-to-read answer.
+              </p>
+            </div>
+
+            <div class="benefit-pills">
+              <span>Improves productivity</span>
+              <span>Reduces manual search</span>
+              <span>Ensures consistency</span>
+              <span>Scales across departments</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="info-card">
+        <button class="card-toggle">
+          <div class="card-left">
+            <span class="card-number">05</span>
+            <div>
+              <h3>Benefits</h3>
+              <p class="card-short">Business value created by using RAG systems.</p>
+            </div>
+          </div>
+          <span class="toggle-icon">+</span>
+        </button>
+        <div class="card-content">
+          <div class="content-inner feature-list">
+            <div class="feature-item">
+              <h4>Context-Aware Responses</h4>
+              <p>Answers are grounded in actual enterprise information.</p>
+            </div>
+            <div class="feature-item">
+              <h4>Scalable Knowledge Access</h4>
+              <p>Useful across HR, IT, finance, operations, and support teams.</p>
+            </div>
+            <div class="feature-item">
+              <h4>Reduced Repetition</h4>
+              <p>Common internal questions can be answered instantly without repeated support requests.</p>
+            </div>
+            <div class="feature-item">
+              <h4>Up-to-Date Information</h4>
+              <p>The system retrieves the latest available data instead of relying only on model memory.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="info-card">
+        <button class="card-toggle">
+          <div class="card-left">
+            <span class="card-number">06</span>
+            <div>
+              <h3>Challenges and Conclusion</h3>
+              <p class="card-short">What to consider and why RAG matters for the future.</p>
+            </div>
+          </div>
+          <span class="toggle-icon">+</span>
+        </button>
+        <div class="card-content">
+          <div class="content-inner">
+            <div class="challenge-grid">
+              <div class="challenge-box">
+                <h4>Data Quality</h4>
+                <p>Weak or outdated enterprise data leads to weak answers.</p>
+              </div>
+              <div class="challenge-box">
+                <h4>Integration Complexity</h4>
+                <p>Connecting AI models, vector databases, and enterprise systems needs planning.</p>
+              </div>
+              <div class="challenge-box">
+                <h4>Security</h4>
+                <p>Sensitive company information must be protected with proper access control.</p>
+              </div>
+            </div>
+
+            <div class="conclusion-box">
+              <h4>Conclusion</h4>
+              <p>
+                RAG helps enterprises move from static data storage to intelligent knowledge access.
+                Among all implementations, the Enterprise Knowledge Assistant stands out as the most
+                practical and high-impact use case.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 RAG Enterprise Showcase</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
